@@ -7,9 +7,72 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="buttons">
-        <button onclick="doStuff()">Hello there</button>
-        <script src="index.js"></script>
+    <div class="body">
+        <div class="buttons">
+            <h1>My Shop</h1>
+            <div class="buttons">
+                <button onclick="changeAddress('Fake Street 1','54321 Fake City','Fake Country')">Change Address</button>
+                <button onclick="addClassToLinks('something')">Class Links</button>
+                <button onclick="changeH1('hallo')">H1</button>
+                <button onclick="changeBackground()">Background</button>
+                <button onclick="colorPrices()">Color</button>
+                <button onclick="toggleClass('invisible')">Images</button>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><div class="image-container"><img src="https://images.thalia.media/00/-/5596413cb34c4240af954f917d4c18c5/kosmos-cascadia-im-herzen-der-natur.jpeg"></div></td>
+                        <td>Cascadia</td>
+                        <td><p>Willkommen in Cascadia! Hier, im Nordwesten Amerikas, fühlen Tiere sich wohl: Bussarde kreisen in den Lüften, Bären treten paarweise auf, Hirsche machen sich auf die Wanderung und Füchse streifen umher. Und natürlich dürfen auch die Lachse nicht fehlen....</p></td>
+                        <td class="price">26.99€</td>
+                        <td><a class="shoplink" href="https://www.thalia.de/shop/home/artikeldetails/A1061706011">LINK</a></td>
+                    </tr>
+                    <tr>
+                        <td><div class="image-container"><img src="https://images.thalia.media/00/-/7259991f32694a148456bcc48fdb7ac0/feuerland-feu63577-gloomhaven-die-pranken-des-loewen-eigenstaendiges-spiel-oder-erweiterung.jpeg"></div></td>
+                        <td>Gloomhaven - Pranken des Löwen</td>
+                        <td><p>Die Einsteigerversion von Gloomhaven, dem am höchsten bewerteten Spiel auf Boardgamegeek. Spielbar als eigenständiges Spiel oder als Erweiterung zu Gloomhaven. Enthält 4 Charaktere und 25 spannende Szenarien, bei denen in einer Kampagne immer wieder zusätzliche...</p></td>
+                        <td class="price">50.93€</td>
+                        <td><a class="shoplink" href="https://www.thalia.de/shop/home/artikeldetails/A1058611816">LINK</a></td>
+                    </tr>
+                    <tr>
+                        <td><div class="image-container"><img src="https://images.thalia.media/00/-/5a1594bcef99454f986d8ec1670541f5/fluegelschlag-kennerspiel-des-jahres-2019.jpeg"></div></td>
+                        <td>Flügelschlag</td>
+                        <td><p>Flügelschlag ist ein wunderschönes Spiel über die Vögel Nordamerikas.Ihr seid Vogelliebhaber - Forscher, Vogelbeobachter und Ornithologen - und versucht eine Vielzahl an unterschiedlichen Arten anzulocken. Sammelt Vögel im gleichen Lebensraum und bildet...</p></td>
+                        <td class="price">40.79€</td>
+                        <td><a class="shoplink" href="https://www.thalia.de/shop/home/artikeldetails/A1055344068">LINK</a></td>
+                    </tr>
+                    <tr>
+                        <td><div class="image-container"><img src="https://images.thalia.media/00/-/7cb5d78a12bc42d18b3b3d3d5f32931c/pegasus-51234g-living-forest-kennerspiel-des-jahres-2022.jpeg"></div></td>
+                        <td>Living Forest</td>
+                        <td><p>Ein mystischer Wald, Quell der Ruhe und des Friedens, wird von den verheerenden Flammen des Onibi bedroht. In Living Forest schlüpfen die Spielenden in die Rollen der Naturgeister Frühling, Sommer, Herbst und Winter und wollen den Wald beschützen, indem...</p></td>
+                        <td class="price">34.99€</td>
+                        <td><a class="shoplink" href="https://www.thalia.de/shop/home/artikeldetails/A1063192136">LINK</a></td>
+                    </tr>
+                    <tr>
+                        <td><div class="image-container"><img src="https://images.thalia.media/00/-/3f5b60781f5e49d3a916b1b3a1ad12b8/pegasus-everdell-deutsche-ausgabe.jpeg"></div></td>
+                        <td>Everdell</td>
+                        <td><p>In dem bezaubernden Tal von Everdell, unter den Ästen hoch aufragender Bäume, zwischen gewundenen Bächen und moosbewachsenen Höhlen, blüht und gedeiht eine Zivilisation von Waldbewohnern. Viele friedliche Jahre sind...</p></td>
+                        <td class="price">62.99€</td>
+                        <td><a class="shoplink" href="https://www.thalia.de/shop/home/artikeldetails/A1057576045">LINK</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="commentSection">
+                <h2>Let us know what you think!</h2>
+                <textarea class="comment" ></textarea>
+            </div>
+            <script src="index.js"></script>
+        </div>
     </div>
+    <footer>
+        <h2 class="name">
+            My Shop
+        </h2>
+        <div id="address">
+            <p>Somestreet 17</p>
+            <p>12345 City</p>
+            <p>Germany</p>
+        </div>
+    </footer>
 </body>
 </html>

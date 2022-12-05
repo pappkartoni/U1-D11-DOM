@@ -1,15 +1,60 @@
 body {
   background-color: bisque;
+  margin: 0;
 }
 
-.buttons {
-  position: relative;
-  margin: 10vh auto 0 auto;
-  width: 200px;
+.body {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 200px;
 }
 
-button {
-  display: block;
-  margin: 10px 0;
-  height: 30px;
+.image-container {
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+table {
+  width: 100%;
+  text-align: justify;
+  background-color: #dedede;
+}
+
+.comment {
+  width: 50%;
+  min-height: 200px;
+}
+
+table, tr, td {
+  padding: 15px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+  background-color: aliceblue;
+  margin-top: 25px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.something {
+  text-decoration: none;
+  color: inherit;
+}
+
+.invisible {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
