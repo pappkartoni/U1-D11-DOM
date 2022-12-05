@@ -11,7 +11,7 @@
         <div class="buttons">
             <h1>My Shop</h1>
             <div class="buttons">
-                <button onclick="changeH1('hallo')">H1</button>
+                <button onclick="changeH1('Changed the Title!')">H1</button>
                 <button onclick="changeBackground()">Background</button>
                 <button onclick="changeAddress('Fake Street 1','54321 Fake City','Fake Country')">Change Address</button>
                 <button onclick="addClassToLinks('something')">Class Links</button>
@@ -62,9 +62,10 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="commentSection">
+            <div id="commentSection">
                 <h2>Let us know what you think!</h2>
-                <textarea class="comment" ></textarea>
+                <textarea id="commentArea" ></textarea>
+                <button onClick=comment()>Comment</button>
             </div>
             <script src="index.js"></script>
         </div>

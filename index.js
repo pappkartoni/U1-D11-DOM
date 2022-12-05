@@ -37,3 +37,13 @@ function colorPrices() {
         prices[i].style.color = randomColor;
     }
 }
+
+function comment() {
+    let commentSection = document.getElementById("commentSection");
+    let commentText = document.getElementById("commentArea").value;
+    document.getElementById("commentArea").value = "";
+    let comment = document.createElement("div");
+    comment.innerText = commentText;
+    comment.classList.add("comment");
+    commentSection.appendChild(comment);
+}

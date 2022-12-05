@@ -28,9 +28,22 @@ table {
   background-color: #dedede;
 }
 
-.comment {
+#commentArea {
   width: 50%;
   min-height: 200px;
+  display: block;
+  margin: 15px auto;
+  padding: 15px;
+  resize: none;
+}
+
+.comment {
+  border: 1px solid black;
+  max-width: 50%;
+  margin: 15px auto;
+  background-color: #dedede;
+  padding: 15px;
+  text-align: justify;
 }
 
 table, tr, td {
@@ -57,4 +70,16 @@ footer {
 
 .invisible {
   display: none;
+}
+
+.buttons {
+  padding: 25px;
+}
+.buttons button {
+  height: 35px;
+  margin: 0 15px;
+  padding: 5px 15px;
+  background-color: aliceblue;
+  color: #212121;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
