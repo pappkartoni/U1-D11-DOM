@@ -1,4 +1,4 @@
-function changeH1(str) {
+function changeH1(str) { // i initially planned to use inputs to make it interactive but settled on buttons in the end, that's why some of the functions have arguments
     let header = document.getElementsByTagName("h1");
     header[0].innerText = str;
 }
@@ -29,7 +29,6 @@ function toggleClass(cls) {
         images[i].classList.toggle(cls)
     }
 }
-
 
 function colorPrices() {
     let prices = document.getElementsByClassName("price");
